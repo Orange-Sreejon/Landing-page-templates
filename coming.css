@@ -1,0 +1,72 @@
+
+body{
+    background-color: #d0b492;
+    font-family: Roboto Slab, Roboto;
+    margin: 0;
+    padding: 20px;
+;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 9.5%;
+}
+
+.content{
+    /* justify-content: center; */
+    background-color: #99836a;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 90%;
+}
+
+img{
+    width: 200px;
+    object-fit: contain;
+}
+
+h1{
+    color: #2C2E31;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #313336;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+    padding: 8px;
+    border-radius: 5px ;
+    border: 2px solid #2C2E31 ;
+    margin-bottom: 7px;
+
+}
+
+input:focus{
+    border-color:#2C2E31;
+}
+
+button[type="submit"]{
+    padding: 8px;
+    background-color: #313336;
+    color: #d0b492;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #27282b;
+}
